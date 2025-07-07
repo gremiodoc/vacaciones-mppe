@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cálculo de Vacaciones Obreros 2025</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="img/logo_gremio.ico">
+</head>
+<body>
+    <header>
+        <img src="img/logo_gremio.ico" alt="Logo Gremio Docente" class="logo">
+        <h1>Cálculo de Vacaciones Obreros 2025</h1>
+    </header>
+
+    <div class="calculator">
+        <form id="vacations-form">
+            <label for="salary">Salario Quincenal (sin descuentos):</label>
+            <input type="number" id="salary" placeholder="Ingrese su salario quincenal" required>
+            <button type="submit">Calcular</button>
+            <button type="button" id="reset-button">Reiniciar</button>
+        </form>
+
+        <div id="results" class="results"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
